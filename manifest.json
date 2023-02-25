@@ -13,6 +13,7 @@
             "js": ["test.js"]
         }
     ],
-    "web_accessible_resources": ["images/weedydrip.jpg", "injected.css"]
+    "web_accessible_resources": ["images/*", "injected.css"]
     
 }
+

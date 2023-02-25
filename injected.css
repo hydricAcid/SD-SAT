@@ -12,7 +12,7 @@
 
 body,
 html {
-    font-family: Rubik, sans-serif !important;
+    font-family: Rubik, sans-serif;
   }
 
 
@@ -28,17 +28,20 @@ html {
     color:blueviolet;
 }
 
-div.MessageList__MessageList___3DxoC {
+div.MessageList__MessageList___3DxoC, div.Message__Message___3oJaU.Message__read___3WdpA {
   background-color: black;
 }
 
+#title{
+  color: red;
+}
 
+
+/* a little bit of trolling
 div.MessageActions__MessageActions___HBFsu, #title, #menu {
   background-image: url(images/talulah.png) !important;
 }
+*/
 
 
-li.item{
-  color: black;
-}
 /* comment test here */
