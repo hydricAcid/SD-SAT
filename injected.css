@@ -32,5 +32,11 @@ div.MessageList__MessageList___3DxoC {
   background-color: black;
 }
 
+div.MessageActions__MessageActions___HBFsu, #title, #menu {
+  background-image: url(images/flametail.png) !important;
+}
 
+li.item{
+  color: black;
+}
 /* comment test here */
