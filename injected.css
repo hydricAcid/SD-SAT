@@ -16,12 +16,21 @@ html {
   }
 
 
-#menu,#title{
-    background-color: red;
+#menu, div.sub{
+  background-image: linear-gradient(blue, indigo, blueviolet);
+}
+
+#title {
+  background-image: linear-gradient(to right,blue, indigo, blueviolet)
 }
 
 #main{
     color:blueviolet;
 }
+
+div.MessageList__MessageList___3DxoC {
+  background-color: black;
+}
+
 
 /* comment test here */
