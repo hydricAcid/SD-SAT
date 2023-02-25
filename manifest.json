@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "first-extension",
+    "version": "1.0.0",
+
+    "description": "test extension",
+
+    "content_scripts": [
+        {
+            "matches": [
+                "https://learn.crcs.vic.edu.au/*"
+            ],
+            "js": ["test.js"]
+        }
+    ],
+    "web_accessible_resources": ["images/weedydrip.jpg", "injected.css"]
+    
+}

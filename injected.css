@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,600');
+
+.student #menu>ul::before {
+    background-image: url("images/weedydrip.jpg");
+
+  }
+
+:root {
+    background-color: darkblue !important;
+    background: darkblue !important;
+  }
+
+body,
+html {
+    font-family: Rubik, sans-serif !important;
+  }
+
+
+#menu,#title{
+    background-color: red;
+}
+
+#main{
+    color:blueviolet;
+}
