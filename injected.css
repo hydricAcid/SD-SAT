@@ -28,14 +28,17 @@ html {
     color:blueviolet;
 }
 
-div.MessageList__MessageList___3DxoC, div.Message__Message___3oJaU.Message__read___3WdpA {
-  background-color: black;
+div.MessageList__MessageList___3DxoC{
+  background-color: rgb(39, 39, 39);
 }
 
 #title{
   color: red;
 }
 
+div.MessageActions__MessageActions___HBFsu, div.Viewer__sidebar___1Btu4, div.ReadingPane__ReadingPane___QEtL8 {
+  background-color: rgb(3, 25, 150);
+}
 
 /* a little bit of trolling
 div.MessageActions__MessageActions___HBFsu, #title, #menu {
