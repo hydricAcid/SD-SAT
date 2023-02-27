@@ -17,7 +17,11 @@ html {
 
 
 #menu, div.sub{
-  background-image: linear-gradient(blue, indigo, blueviolet);
+  background-image: linear-gradient(blue, indigo, blueviolet) !important;
+}
+
+#menu .nav{
+  background: rgba(255,255,255,0) !important;
 }
 
 #menu {
@@ -50,11 +54,17 @@ div.MessageActions__MessageActions___HBFsu, div.Viewer__sidebar___1Btu4, div.Rea
   background-color: rgb(3, 25, 150);
 }
 
+div.sub {
+  color: rgb(255, 0, 0) !important;
+
+}
+
 /* a little bit of trolling
 div.MessageActions__MessageActions___HBFsu, #title, #menu {
   background-image: url(images/talulah.png) !important;
 }
 */
+
 
 
 /* comment test here */
