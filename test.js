@@ -7,5 +7,6 @@ fileref.setAttribute("href", cssFile);
 document.head.appendChild(fileref);
 document.getElementsByTagName("html")[0].appendChild(fileref);
 
+
 document.getElementsByClassName("li.item.hasChildren").element.setAttribute(onclick, "");
 
