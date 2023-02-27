@@ -9,5 +9,3 @@ document.getElementsByTagName("html")[0].appendChild(fileref);
 
 document.getElementsByClassName("li.item.hasChildren").element.setAttribute(onclick, "");
 
-
-document.querySelectorAll("#menu li.item.hasChildren label").innerHTML = "changed";
