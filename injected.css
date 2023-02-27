@@ -20,6 +20,16 @@ html {
   background-image: linear-gradient(blue, indigo, blueviolet);
 }
 
+#menu {
+  width:50px;
+}
+
+
+#content {
+  left:50px;
+}
+
+
 #title {
   background-image: linear-gradient(to right,blue, indigo, blueviolet)
 }
