@@ -24,10 +24,16 @@ html {
 
 #menu li {
   position: relative;
+  width:25px;
+  z-index: 9999 !important;
+  transition: ease 0.3s !important;
+  
 }
 
 #menu li:hover {
-  z-index: 9999 !important;
+
+  width:250px !important;
+
   
 }
 
@@ -35,13 +41,21 @@ html {
   color:cyan !important;
 }
 
+#menu li.item.hasChildren>svg {
+  color:rgba(255,255,255,0) !important;
+  width:0;
+}
+
 #menu .nav{
   background: rgba(255,255,255,0) !important;
 }
 
 #menu {
-  width:300px;
+  width:800px;
 
+}
+#menu li.active {
+  background:rgba(255,255,255,0.3) !important;
 }
 
 #menu li > label{
@@ -51,7 +65,7 @@ html {
 
 
 #content {
-  left:30px;
+  left:35px;
 }
 
 #menu li{
