@@ -25,7 +25,7 @@ html {
 #menu li {
   position: relative;
   width:25px;
-  z-index: 9999 !important;
+  z-index: 999 !important;
   transition: ease 0.3s !important;
   
 }
@@ -51,7 +51,7 @@ html {
 }
 
 #menu {
-  width:800px;
+  width:8000px;
 
 }
 #menu li.active {
