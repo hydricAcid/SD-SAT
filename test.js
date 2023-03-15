@@ -8,4 +8,4 @@ document.head.appendChild(ref);
 document.getElementsByTagName("html")[0].appendChild(ref);
 
 
-document.getElementsByClassName("li.item.hasChildren").element.setAttribute(onclick, "");
+document.getElementsByClassName("li.item.hasChildren").element.setAttribute(onclick, ""); 
