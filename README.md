@@ -1,9 +1,5 @@
-# extension-test
+# Software Development SAT
 
 hello here is the start of the file
 
-idk if im actually gonna finish this
 
-i just want to make seqta look better
-
-inspired by Better Seqta
