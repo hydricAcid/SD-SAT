@@ -72,11 +72,11 @@ html {
 #menu li{
   padding:5px;
 }
-
+/*
 #title {
   background-image: linear-gradient(to right,blue, indigo, blueviolet)
 }
-
+*/
 #main{
     color:blueviolet;
 }
