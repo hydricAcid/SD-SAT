@@ -4,12 +4,15 @@ hello here is the start of the file
 
 <h2>Criteria 1 - In the 'Projects' tab, there is a timeline for the SAT.</h2>
 There are different views for this too. Just click on the tabs above.
+
 to add: criteria 6 - 10
 <h2>Criteria 2 - satFiles/DevelopmentModel.md</h2>
 The agile development model is my chosen model for this project 
+
 to add: tables displaying pros and cons
 <h2>Criteria 3 - https://docs.google.com/document/d/1yLfXTU3eeGeTIrsOqJrD5RhuE5QdAOwQSd8AysQhqqY/edit</h2>
 This extension is run entirely on a user's computer. No server is required for the extension to function, therefore there won't be any communication for external entities.
+
 to add: improved data flow diagram
 <h2>Criteria 4 - https://docs.google.com/document/d/15byJ50CPgZdv5Pmc66C2qtvjOuO-s7fbfQDYwMYii-I/edit#</h2>
 
