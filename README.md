@@ -12,7 +12,8 @@ The agile development model is my chosen model for this project
 <h2>Criteria 3 - https://docs.google.com/document/d/1yLfXTU3eeGeTIrsOqJrD5RhuE5QdAOwQSd8AysQhqqY/edit</h2>
 This extension is run entirely on a user's computer. No server is required for the extension to function, therefore there won't be any communication for external entities.
 
-UPDATE: improved data flow diagram
+<b>UPDATE: improved data flow diagram</b>
+
 <h2>Criteria 4 - https://docs.google.com/document/d/15byJ50CPgZdv5Pmc66C2qtvjOuO-s7fbfQDYwMYii-I/edit#</h2>
 
 My software will be a browser extension that allows the modification of HTML elements on the SEQTA webpage of CRCS. Modifications may include changing colours and sizes and contents of HTML elements on the webpage. Users can change the colours and sizes of HTML elements and they may even be able to upload custom images to be displayed on the webpage. The purpose of the extension is to allow users to personalise their webpage to their liking. This extension will be written in HTML, CSS and JavaScript since modern browsers support those languages by default in terms of writing extensions. This extension will only work for the SEQTA website on PCs, not mobile devices, and a Chromium or Firefox web browser which supports extensions. 
