@@ -21,3 +21,7 @@ My software will be a browser extension that allows the modification of HTML ele
 The foundation of this extension is a CSS file injection via JavaScript. When a website is loaded into your browser, a CSS file is also loaded which contains values that define, colours, fonts, sizes and other values. When an external CSS file is injected, the values of the original CSS file can be overwritten by the new values in the injected CSS file, therefore changing the appearance of HTML elements.
 
 There isn’t much difference between the two user classes in terms of having access to the program, as I am planning this application to be open-source. This means that the user will have access to all the code for the software, even make their own modifications to it as they please, just like the developer. The main difference is that the average user may not have as much technical knowledge as the developer, and only those who have that may edit the code for their own purposes.
+
+<h2>Criteria 5 - https://docs.google.com/document/d/19PNzjiQaiL6SlASLnU6TKY6c9lAYMLYy9-a2ACzD0CQ/edit#</h2>
+
+Designs for the application.
