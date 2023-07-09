@@ -2,7 +2,6 @@
     "manifest_version": 2,
     "name": "first-extension",
     "version": "1.0.0",
-
     "description": "test extension",
 
     "content_scripts": [
@@ -13,7 +12,13 @@
             "js": ["test.js"]
         }
     ],
-    "web_accessible_resources": ["images/*", "injected.css"]
+    "icons": {
+        "128": "images/icontest.png"
+    },
+    "web_accessible_resources": ["images/*", "injected.css"],
+    "browser_action": {
+        "default_popup": "index.html"
+    }
     
 }
 

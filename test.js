@@ -9,3 +9,10 @@ document.getElementsByTagName("html")[0].appendChild(ref);
 
 
 document.getElementsByClassName("li.item.hasChildren").element.setAttribute(onclick, ""); 
+
+function background1()
+{
+var input1 = document.getElementById("userInput");
+document.documentElement.style.setProperty("--background1", "#031996");
+
+}
