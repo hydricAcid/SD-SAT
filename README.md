@@ -25,3 +25,14 @@ There isn’t much difference between the two user classes in terms of having ac
 <h2>Criteria 5 - https://docs.google.com/document/d/19PNzjiQaiL6SlASLnU6TKY6c9lAYMLYy9-a2ACzD0CQ/edit#</h2>
 
 Designs for the application.
+
+<h2>Criteria 6 - manifest.json, popup.js, popup.html, content.js, custom.css</h2>
+
+These five files make up most of the browser extension.
+<ul>
+  <li>manifest.json: this file is responsible for loading the extension. It is the first file that the browser reads when the extension is loaded.</li>
+  <li>popup.html: this HTML document determines the appearance of the popup that appears when a user clicks on the extension icon</li>
+  <li>popup.js: The JavaScript that is run alongsode popup.html. It provides scripts for when users click on buttons in the extension</li>
+  <li>content.js: This JavaScript file is responsible for accessing the Web Storage API in the browser to load values. Depending on whether the user is using the extension for the first time, this .js file will either load defaults or read off the Web Storage API to access the values from the previous session. The file is also responsible for saving values to the Web Storage APO so they can be accessed later</li>
+  <li>custom.css: The CSS file which overwrites the current CSS file of the web page. This is used in conjuction with content.js to change the HTML attributes of elements in the web page</li>
+</ul>
