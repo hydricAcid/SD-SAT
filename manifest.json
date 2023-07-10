@@ -1,25 +1,30 @@
 {
     "manifest_version": 2,
-    "name": "first-extension",
-    "version": "1.0.0",
-    "description": "test extension",
-
+    "name": "Colour-Changing-Extention",
+    "version": "0.2.0",
+    "description": "Change colors on web pages",
+    "icons": {
+      "128": "images/icontest.png"
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "storage"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
     "content_scripts": [
         {
             "matches": [
                 "https://learn.crcs.vic.edu.au/*"
             ],
-            "js": ["test.js"]
+          "css": ["custom.css"],
+          "js": ["content.js"]
         }
-    ],
-    "icons": {
-        "128": "images/icontest.png"
-    },
-    "web_accessible_resources": ["images/*", "injected.css"],
-    "browser_action": {
-        "default_popup": "index.html"
-    }
-    
-}
-
-
+      ]
+  }
+  

@@ -1,0 +1,7 @@
+body {
+  color: var(--text-color) !important;
+}
+
+div.MessageActions__MessageActions___HBFsu, div.Viewer__sidebar___1Btu4, div.ReadingPane__ReadingPane___QEtL8 {
+  background-color: var(--background) !important;
+}
